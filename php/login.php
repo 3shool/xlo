@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/login.css">
+    <link rel="stylesheet" href="../css/login.css">
     <title>Login</title>
 </head>
 
 <body>
     <div class="loginform">
-        <img src="../IMG/login.ico" alt="login icon">
+        <img src="../icon/login.ico" alt="login icon">
         <h1>Login</h1>
         <form action="#">
             <p>Email Id</p>
