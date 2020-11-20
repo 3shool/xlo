@@ -16,3 +16,19 @@ searchmove.addEventListener("mouseenter", (e) => {
 searchmove.addEventListener("mouseleave", (e) => {
     searchmove.style.transform = "translateY(0px)";
 });
+
+window.onscroll = function() {myFunction()};
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+
+function topFunction() {
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
