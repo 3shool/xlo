@@ -4,16 +4,16 @@ body{
 }
 
 .loginform{ 
-    background-color: rgb(121, 170, 170);
-    height:400px;
+     background-color: rgb(247, 249, 250);
+    height:460px;
     width:300px;
     position: absolute;
     top:50%;
     left: 50%;
     transform: translate(-50%,-50%); 
     box-sizing: border-box;
-    border-radius: 30px;
-    box-shadow: 0 10px 10px rgba(0,0,0,0.2),0 0px 15px rgba(22, 15, 15, 0.2);
+    /* border-radius: 30px; */
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2),0 0px 15px rgba(22, 15, 15, 0.2); 
 }
 .loginform h1{
     text-align: center;
@@ -22,7 +22,7 @@ body{
 .loginform input[type="email"],input[type="password"]{
     display: inline-block;
     outline: none;
-    border: none;
+    border: none; 
     border-radius: 20px;
     /* background-color: lightgrey; */
     width: 250px;
@@ -30,7 +30,7 @@ body{
     /* box-shadow: 0 5px 5px rgba(0,0,0,0.2),0 0px 15px rgba(0,0,0,0.2); */
     margin-bottom: 10px;
 }
-.loginform input[type="text"]:hover,input[type="password"]:hover{
+.loginform input[type="email"]:hover,input[type="password"]:hover{
     display: inline-block;
     outline: none;
     border: none;
@@ -53,6 +53,7 @@ body{
     box-shadow: 0 5px 5px rgba(0,0,0,0.2),0 0px 15px rgba(0,0,0,0.2);
     margin-top: 10px;
     margin-left: 80px;
+    cursor: pointer;
 }
 .loginform input[type="submit"]:hover{
     color: white;
